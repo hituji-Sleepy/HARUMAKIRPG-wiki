@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- カスタムCSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/adventure-wiki.css' | relative_url }}">
+
+  <!-- 必要ならフォント追加 -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-title">{{ site.title | default: "HARUMAKIRPG 攻略Wiki" }}</div>
+    <div class="site-sub">{{ site.description }}</div>
+  </header>
+
+  <div class="site">
+    <aside class="sidebar" role="navigation">
+      <div class="search">
+        <input type="search" placeholder="アイテム・バイオームを検索…" />
+        <button class="btn">検索</button>
+      </div>
+
+      <!-- 簡易ナビ（必要に応じて編集してください） -->
+      <nav aria-label="メインナビ">
+        <ul class="nav">
+          <li><a href="#はじめに">はじめに</a></li>
+          <li><a href="#サーバー参加方法">サーバー参加方法</a></li>
+          <li><a href="#基本操作">基本操作</a></li>
+          <li><a href="#ステージ紹介">ステージ紹介</a></li>
+          <li><a href="#アイテム一覧">アイテム一覧</a></li>
+          <li><a href="#モンスター図鑑">モンスター図鑑</a></li>
+          <li><a href="#攻略ガイド">攻略ガイド</a></li>
+          <li><a href="#よくある質問">よくある質問</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content" role="main">
+      <article>
+        {{ content }}
+      </article>
+    </main>
+  </div>
+</body>
+</html>
