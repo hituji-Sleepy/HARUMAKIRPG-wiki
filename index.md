@@ -3,10 +3,14 @@ layout: default
 title: HARUMAKIRPG 攻略Wiki
 ---
 
+Layout: default
+title: ステージ紹介
+permalink: /stages/
+
 # HARUMAKIRPG 攻略Wiki
 
 > **HARUMAKIRPG 攻略Wikiへようこそ！**  
-> HARUMAKIRPG は、Youtube活動者「くらげとぽん」さんが手がけたマインクラフト統合版の本格RPGサーバーです。  
+> HARUMAKIRPG は、Youtube活動者「くらげとぽん」さんが手がけたマインクラフト統合版の本格RPGサーバーです。
 > 初めての方でも安心して冒険を始められるよう、丁寧に解説しています。
 
 ---
